@@ -1,10 +1,8 @@
 ---
 title: Kernel Test
-date: 2020-11-14 23:00:30
-categories:
-- Kernel
+date: 2020-11-12 23:00:30
 tags:
-- 2020
+- Kernel
 ---
 
 This is a Test Post.
