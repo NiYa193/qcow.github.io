@@ -1,8 +1,7 @@
 ---
 title: Kernel Test
 date: 2020-11-12 23:00:30
-tags:
-- Kernel
+tags: Kernel
 ---
 
 This is a Test Post.
