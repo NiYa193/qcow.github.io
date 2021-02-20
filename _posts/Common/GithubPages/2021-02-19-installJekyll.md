@@ -47,7 +47,7 @@ bundle exec jekyll serve -H 192.168.1.1 -P 8080
 
 ## 安装 Ruby
 安装完成后，点击Finish，会跳到cmd命令窗口，选3:
-![Finishwindow](./Finish.png)
+![Finishwindow](https://qcow.github.io/_posts/Common/GithubPages/Finish.png)
 
 检查是否安装完成：
 ```bash
