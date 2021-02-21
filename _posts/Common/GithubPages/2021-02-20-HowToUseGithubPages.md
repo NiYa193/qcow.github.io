@@ -63,6 +63,20 @@ excerpt_separator: <!-- more -->
 <!-- more -->
 ```
 
+#### 添加图片
+在Github-Pages仓库里面创建一个文件夹，例如与_posts并列，_images
+将图片上传，在Github网页点开这个文件，可以获得类似的链接：
+```
+https://github.com/user/blogimg/blob/master/images/test.png
+```
+将链接中的blob换成raw，即可当作Markdown的链接使用。
+>这里真心困扰了我很久。。。
+
+<br>
+
+当然，也可以单独使用一个仓库做图片仓库，看个人喜好。我觉得放在一起比较好管理。
+
+
 #### SmallTips
 1. 新标签页打开超链接
 在引用最后面，添加 {:target="_blank"}，例如：
