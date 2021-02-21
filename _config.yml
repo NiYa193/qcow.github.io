@@ -6,20 +6,20 @@
 # Site
 title: Qcow
 subtitle:
-description:
-author: NiYa
+description: Qcow the code.
+author: Fcc
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
 language: zh-Hans
 date_format: '%Y-%m-%d'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com' and baseurl as '/child'
-url:
+url: https://qcow.cc
 baseurl:
 permalink: pretty
 
 # Pagination
-paginate: 10
+paginate: 8
 #paginate_path: "/page:num/"
 #archive:
   #paginate: 10
@@ -35,7 +35,7 @@ paginate: 10
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "Gemfile", "Gemfile.lock", "README_en.md", "vendor"]
 
 # Separator
-#excerpt_separator: <!-- more -->
+excerpt_separator: <!-- more -->
 
 # Code Highlighter
 ## 'pygments' is unsupported on GitHub Pages now.
@@ -79,7 +79,7 @@ plugins:
 favicon: /assets/favicon.ico
 
 # Set default keywords (Use a comma to separate)
-keywords: "Jekyll, NexT"
+keywords: "Linux,Windows,Tools"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -105,7 +105,7 @@ copyright: false
 canonical: true
 
 # Change headers hierarchy on site-subtitle (will be main site description) and on all post/pages titles for better SEO-optimization.
-seo: false
+seo: true
 
 # If true, will add site-subtitle to index page, added in jekyll config.
 # subtitle: Subtitle
@@ -119,12 +119,11 @@ index_with_subtitle: false
 menu:
   home: /
   categories: /categories/
-  about: /about/
-  archives: /archives/
   tags: /tags/
-  sitemap: /sitemap.xml
+  archives: /archives/
+  about: /about/
+  #sitemap: /sitemap.xml
   #commonweal: /404.html
-
 
 # Enable/Disable menu icons.
 # Icon Mapping:
@@ -151,8 +150,8 @@ menu_icons:
 # ---------------------------------------------------------------
 
 # Schemes
-scheme: Muse
-#scheme: Mist
+#scheme: Muse
+scheme: Mist
 #scheme: Pisces
 
 
@@ -226,9 +225,9 @@ social_icons:
   enable: true
   # Icon Mappings.
   # KeyMapsToSocialItemKey: NameOfTheIconFromFontAwesome
-  #GitHub: github
-  #Twitter: twitter
-  #Weibo: weibo
+  GitHub: github
+  Twitter: twitter
+  Weibo: weibo
 
 
 # Sidebar Avatar
@@ -304,8 +303,8 @@ excerpt_description: true
 # Automatically Excerpt. Not recommend.
 # Please use <!-- more --> in the post to control excerpt accurately.
 auto_excerpt:
-  enable: false
-  length: 150
+  enable: true
+  length: 80
 
 # Post meta display settings
 post_meta:
@@ -330,8 +329,8 @@ post_wordcount:
 # Declare license on posts
 post_copyright:
   enable: false
-  license: CC BY-NC-SA 3.0
-  license_url: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  license:  # CC BY-NC-SA 3.0
+  license_url: # https://creativecommons.org/licenses/by-nc-sa/3.0/
 
 
 
@@ -407,7 +406,7 @@ wildfire:
     siteId:
   # other configs
   theme: light # or dark
-  locale: zh-CN # or other locales, e.g. zh-CN
+  locale: en # or other locales, e.g. zh-CN
   defaultAvatarURL: 
 # Any question? 
 # Raise an issue here: https://github.com/cheng-kang/wildfire/issues
@@ -485,23 +484,23 @@ duoshuo_info:
   #admin_nickname: Author
 
 
-# Facebook SDK Support.
-# https://github.com/iissnan/hexo-theme-next/pull/410
-facebook_sdk:
-  enable: false
-  app_id:       #<app_id>
-  fb_admin:     #<user_id>
-  like_button:  #true
-  webmaster:    #true
+# # Facebook SDK Support.
+# # https://github.com/iissnan/hexo-theme-next/pull/410
+# facebook_sdk:
+#   enable: false
+#   app_id:       #<app_id>
+#   fb_admin:     #<user_id>
+#   like_button:  #true
+#   webmaster:    #true
 
-# Facebook comments plugin
-# This plugin depends on Facebook SDK.
-# If facebook_sdk.enable is false, Facebook comments plugin is unavailable.
-facebook_comments_plugin:
-  enable: false
-  num_of_posts: 10  # min posts num is 1
-  width: 100%       # default width is 550px
-  scheme: light     # default scheme is light (light or dark)
+# # Facebook comments plugin
+# # This plugin depends on Facebook SDK.
+# # If facebook_sdk.enable is false, Facebook comments plugin is unavailable.
+# facebook_comments_plugin:
+#   enable: false
+#   num_of_posts: 10  # min posts num is 1
+#   width: 100%       # default width is 550px
+#   scheme: light     # default scheme is light (light or dark)
 
 # VKontakte API Support.
 # To get your AppID visit https://vk.com/editapp?act=create
@@ -554,7 +553,7 @@ busuanzi_count:
 
 
 # Enable baidu push so that the blog will push the url to baidu automatically which is very helpful for SEO
-baidu_push: false
+baidu_push: true
 
 # Google Calendar
 # Share your recent schedule to others via calendar page
