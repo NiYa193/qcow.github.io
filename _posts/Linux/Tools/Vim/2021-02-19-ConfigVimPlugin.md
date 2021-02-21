@@ -8,7 +8,6 @@ tags: Vim
 # VIM插件配置说明
 
 ## 1. github上下载  
-https://github.com/NiYa193/vimplugin  
 <br>
 
 ## 2. 先执行 init.sh  
