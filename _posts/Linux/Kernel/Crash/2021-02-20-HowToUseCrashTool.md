@@ -1,3 +1,10 @@
+---
+title: Crash工具使用
+date: 2021-02-20 23:00:05
+categories: Kernel
+tags: Crash
+---
+
 # l 命令   
 help文档：  
 1.用于一个结构的开始地址，结构包含一个指向下一个结构的指针。  
@@ -5,8 +12,10 @@ help文档：
 （1）空指针  
 （2）指向了开始地址  
 （3）...  
-</br>
-</br>
+<!-- more -->
+
+<br>  
+<br>
 
 ## l 结构体
 会把相关的结构体打印出来：  
@@ -23,11 +32,11 @@ crash> l sysrq_key_table
 440             &sysrq_loglevel_op,             /* 2 */  
 441             &sysrq_loglevel_op,             /* 3 */  
 ```
-</br>
+<br>
 
 # struct命令  
 ls
-</br>
+<br>
 
 # dis命令  
 反汇编源码  
@@ -36,15 +45,15 @@ ls
 
 ## dis -sl 
 显示出源码上下文  
-</br>
+<br>
 
 ## dis -r/r
 向前向后查看代码  
-</br>
+<br>
 
 ## dis -l
 查看代码  
-</br>
+<br>
 
 ## dis -x
 强制使用16进制  

@@ -1,9 +1,17 @@
+---
+title: Getaddrinfo使用说明
+date: 2021-02-19 23:00:00
+categories: Linux
+tags: Glibc
+---
+
 # getaddrinfo使用说明
 [参考链接](https://blog.csdn.net/sdcxyz/article/details/46803679)
 
 ## Commit
 getaddrinfo的作用就是按照提示填充指定的数据结构，以供bind connect 等函数直接使用，无需手动填充所需数据结构 例如 sockaddr，这个函数的作用是替换以前的gethostbyname
 
+<!-- more -->
 
 ## Code
 示例代码见：
@@ -67,4 +75,4 @@ int main(int argc, char *argv[])
     return 0;
 }
 ```
-</br>
+<br>

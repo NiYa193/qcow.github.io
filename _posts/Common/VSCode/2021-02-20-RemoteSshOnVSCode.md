@@ -2,7 +2,7 @@
 title: VSCdoe连接远程Linux服务器
 date: 2021-02-19 23:00:00
 categories: Common
-tags: GithubPages
+tags: VSCode
 ---
 
 # VSCdoe连接Linux
@@ -22,6 +22,8 @@ VSCode安装Remote-SSH插件
         HostName 192.168.253.129
         User fcc  
     ```
+
+<!-- more -->
 
 ## 失败原因
 1. 未配置config文件路径

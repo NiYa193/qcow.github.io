@@ -21,6 +21,8 @@ sudo gem install bundler
 sudo gem install pygments.rb
 ```
 
+<!-- more -->
+
 ## 克隆Github到本地
 ```bash
 git clone git@github.com:NiYa193/qcow.github.io.git && cd qcow.github.io.git

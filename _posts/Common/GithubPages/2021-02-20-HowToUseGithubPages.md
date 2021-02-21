@@ -1,3 +1,10 @@
+---
+title: 如何使用Github Pages
+date: 2021-02-20 23:00:19
+categories: Common
+tags: GithubPages
+---
+
 # 如何使用Github Pages
 **总体流程如下：**
 * 首先Fork或Download一份本项目代码。
@@ -8,6 +15,7 @@
 * 去谷歌自定义搜索新建一个你的搜索引擎，把你的Id替换根目录下search.html我的ID
 * 最后，push到你自己的博客Repo~
 
+<!-- more -->
 
 ## Github网站配置
 一堆堆，先省略
@@ -21,9 +29,20 @@ cd xx.io
 ```
 
 ## 特性说明
-### 各文件夹的作用
+### 各文件及文件夹的作用
+* CNAME  : 放置自己的域名
+* _posts : 文章的存放位置，可以增加子文件夹
+* 
 
-### 文章的抬头
+### 书写文章
+
+#### 文章的命名
+以日期命名才可以被收录，例如
+```
+2021-02-20-HowToUseGithubPages.md
+```
+
+#### 文章的抬头
 文章的抬头，可以指定文章的标题、归档、时间、及标签
 ```css
 ---
@@ -34,8 +53,7 @@ tags: GithubPages
 ---
 ```
 
-
-### 折叠文章
+#### 折叠文章
 打开这个配置：
 ```bash
 excerpt_separator: <!-- more -->
@@ -44,7 +62,6 @@ excerpt_separator: <!-- more -->
 ```css
 <!-- more -->
 ```
-
 
 
 
