@@ -63,5 +63,11 @@ excerpt_separator: <!-- more -->
 <!-- more -->
 ```
 
+#### SmallTips
+1. 新标签页打开超链接
+在引用最后面，添加 {:target="_blank"}，例如：
+```
+[参考链接](https://blog.csdn.net/sdcxyz/article/details/46803679){:target="_blank"}
+```
 
 

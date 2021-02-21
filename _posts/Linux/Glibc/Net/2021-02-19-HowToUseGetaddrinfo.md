@@ -6,7 +6,7 @@ tags: Glibc
 ---
 
 # getaddrinfo使用说明
-[参考链接](https://blog.csdn.net/sdcxyz/article/details/46803679)
+[参考链接](https://blog.csdn.net/sdcxyz/article/details/46803679){:target="_blank"}
 
 ## Commit
 getaddrinfo的作用就是按照提示填充指定的数据结构，以供bind connect 等函数直接使用，无需手动填充所需数据结构 例如 sockaddr，这个函数的作用是替换以前的gethostbyname
