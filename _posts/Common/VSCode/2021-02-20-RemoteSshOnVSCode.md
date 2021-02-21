@@ -13,10 +13,10 @@ VSCode安装Remote-SSH插件
 2. 配置
     1. ctrl + p打开配置
     2. >remote-ssh打开配置项
-    ![P1](https://qcow.github.io/_images/Common/VSCode/2021-02-20-Remote-SSH-P1.png)
-    ![P2](https://qcow.github.io/_images/Common/VSCode/2021-02-20-Remote-SSH-P2.png)
-    ![P3](https://qcow.github.io/_images/Common/VSCode/2021-02-20-Remote-SSH-P3.png)
-    3. 配置如下：
+    ![P1](_posts/_images/Common/VSCode/2021-02-20-Remote-SSH-P1.png)
+    ![P2](_posts/_images/Common/VSCode/2021-02-20-Remote-SSH-P2.png)
+    ![P3](_posts/_images/Common/VSCode/2021-02-20-Remote-SSH-P3.png)
+    1. 配置如下：
     ```bash
         Host Ubuntu
         HostName 192.168.253.129

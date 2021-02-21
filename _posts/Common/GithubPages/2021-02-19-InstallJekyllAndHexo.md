@@ -29,6 +29,8 @@ git clone git@github.com:NiYa193/qcow.github.io.git && cd qcow.github.io.git
 ```
 
 ## 更新安装bundle
+如果Clone网上的主题，可以不需要再bundle install了，直接跳到下一节，开启服务即可。
+
 ```bash
 ## 更新时会遇到很多库依赖的问题，直接安装对应库就可以了
 bundle update --bundler   ## 可能要输入root密码
@@ -69,8 +71,6 @@ jekyll serve -H 192.168.1.1 -P 8080  # 虚拟机的话一定是虚拟机的IP
 bundle exec jekyll serve -H 192.168.1.1 -P 8080
 ```
 
-
-
 # windows本地安装 Jekyll
 
 ## 下载Ruby
@@ -78,7 +78,7 @@ bundle exec jekyll serve -H 192.168.1.1 -P 8080
 
 ## 安装 Ruby
 安装完成后，点击Finish，会跳到cmd命令窗口，选3:
-![Finishwindow](https://qcow.github.io/_images/Common/GithubPages/2021-02-19-InstallJekyllAndHexo-1-Finish.png)
+![Finishwindow](_posts/_images/Common/GithubPages/2021-02-19-InstallJekyllAndHexo-1-Finish.png)
 
 检查是否安装完成：
 ```bash
