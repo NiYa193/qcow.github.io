@@ -1,5 +1,5 @@
 ---
-title: 本地安装Jekyll
+title: 本地安装Jekyll及Hexo
 date: 2021-02-19 23:00:00
 categories: Common
 tags: GithubPages
@@ -108,5 +108,30 @@ jekyll serve
 [CatBook](http://jekyllthemes.org/themes/CATbook/)
 
 
+# Linux本地安装hexo
+## 安装步骤
+### 参考网站
+[官方网站](https://hexo.io/docs/server.html)
+[参考网站-1](https://ezlippi.com/blog/2016/02/jekyll-to-hexo.html)
 
+### 安装软件
+mkdir hexo  #创建一个文件夹
+cd hexo
+npm install -g hexo-cli
+npm install hexo --save
+
+### 安装主题
+git clone --branch v5.1.2 https://github.com/iissnan/hexo-theme-next themes/next
+
+
+
+## 主题推荐：
+简洁的next主题[next](https://github.com/iissnan/hexo-theme-next)
+
+
+## 安装报错
+1. 可能原因是国内的源有问题
+npm install -g cnpm --registry=https://registry.npm.taobao.org
+cnpm install hexo-cli -g
+cnpm install hexo --save
 
