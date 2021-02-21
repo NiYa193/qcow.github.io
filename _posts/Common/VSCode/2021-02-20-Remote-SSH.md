@@ -5,8 +5,8 @@ categories: Common
 tags: GithubPages
 ---
 
-# VSCdoe连接Ubuntu
-
+# VSCdoe连接Linux
+## 配置步骤
 1. 安装插件
 VSCode安装Remote-SSH插件
 
@@ -23,11 +23,15 @@ VSCode安装Remote-SSH插件
         User fcc  
     ```
 
-3. 失败原因
+## 失败原因
+1. 未配置config文件路径
 如果连接不上，一般是因为没有配置remote-ssh的配置文件路径引起  
 使用ctrl+p打开配置，配置如下：
 ```bash
 C:\Users\Fcc\.ssh\config
 ```
+
+2. Server未配置TcpForward相关配置
+编辑/etc/ssh/sshd_config，打开相应选项，重启sshd服务即可
 
 

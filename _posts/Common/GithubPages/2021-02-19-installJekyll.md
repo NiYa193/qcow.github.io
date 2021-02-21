@@ -11,6 +11,8 @@ tags: GithubPages
 ## 下载Ruby及依赖
 ```bash
 apt install ruby-full ruby-dev gcc libffi-dev make g++ zlib1g-dev
+# 红帽系
+yum install ruby ruby-devel libffi-devel
 ```bash
 
 ## 安装Bundler
@@ -28,8 +30,35 @@ git clone git@github.com:NiYa193/qcow.github.io.git && cd qcow.github.io.git
 ```bash
 ## 更新时会遇到很多库依赖的问题，直接安装对应库就可以了
 bundle update --bundler   ## 可能要输入root密码
+## bundle install 遇到的问题，大部分都是缺库，下载对应包就可以了，这提示也是没谁了
 bundle install
 ```
+报错提示样例：
+```bash
+    Gem::Ext::BuildError: ERROR: Failed to build gem native extension.
+    
+        current directory: /usr/share/gems/gems/commonmarker-0.17.13/ext/commonmarker
+    /usr/bin/ruby -r ./siteconf20210221-3115-4zm6ln.rb extconf.rb
+    mkmf.rb can't find header files for ruby at /usr/share/include/ruby.h
+    
+    extconf failed, exit code 1
+    
+    Gem files will remain installed in /usr/share/gems/gems/commonmarker-0.17.13 for
+    inspection.
+    Results logged to /usr/lib64/gems/ruby/commonmarker-0.17.13/gem_make.out
+    
+    An error occurred while installing commonmarker (0.17.13), and Bundler cannot
+    continue.
+    Make sure that `gem install commonmarker -v '0.17.13' --source 'https://rubygems.org/'`
+    succeeds before bundling.
+    
+    In Gemfile:
+      github-pages was resolved to 193, which depends on
+        jekyll-commonmark-ghpages was resolved to 0.1.5, which depends on
+          jekyll-commonmark was resolved to 1.2.0, which depends on
+            commonmarker                                                  
+```
+
 
 ## 开启服务
 ```bash
@@ -74,6 +103,9 @@ jekyll serve
 ## 主题选择
 主题可以网站选择： [链接](http://jekyllthemes.org)
 
+几个好看的主题：
+1. 非常简洁的小猫主题
+[CatBook](http://jekyllthemes.org/themes/CATbook/)
 
 
 
