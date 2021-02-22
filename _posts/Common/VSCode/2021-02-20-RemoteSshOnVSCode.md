@@ -12,15 +12,14 @@ VSCode安装Remote-SSH插件
 
 2. 配置
     1. ctrl + p打开配置
-    2. >remote-ssh打开配置项
+    2. >remote-ssh打开配置项  
     ![P1](/_images/Common/VSCode/2021-02-20-Remote-SSH-P1.png)
     ![P2](/_images/Common/VSCode/2021-02-20-Remote-SSH-P2.png)
-    ![P3](/_images/Common/VSCode/2021-02-20-Remote-SSH-P3.png)
     1. 配置如下：
     ```bash
         Host Ubuntu
         HostName 192.168.253.129
-        User fcc  
+        User Qcow  
     ```
 
 <!-- more -->
@@ -30,7 +29,7 @@ VSCode安装Remote-SSH插件
 如果连接不上，一般是因为没有配置remote-ssh的配置文件路径引起  
 使用ctrl+p打开配置，配置如下：
 ```bash
-C:\Users\Fcc\.ssh\config
+C:\Users\Qcow\.ssh\config
 ```
 
 2. Server未配置TcpForward相关配置
